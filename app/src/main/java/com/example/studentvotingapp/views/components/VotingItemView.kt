@@ -14,8 +14,11 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.studentvotingapp.models.Voting
+import com.example.studentvotingapp.ui.theme.Purple40
+import com.example.studentvotingapp.ui.theme.PurpleNice
 
 class VotingItemView {
     companion object {
@@ -31,7 +34,7 @@ class VotingItemView {
                 backgroundColor = Color.Cyan
             ) {
                 Column(modifier = Modifier.padding(10.dp)) {
-                    Text(text = "Title: ${voting.title}")
+                    Text(text = "Title: ${voting.title}", fontWeight = FontWeight.Bold)
                     Text(text = "Description: ${voting.description}")
                     Text(text = "Start Time: ${voting.startTime?.toDate()}")
                     Text(text = "End Time: ${voting.endTime?.toDate()}")
