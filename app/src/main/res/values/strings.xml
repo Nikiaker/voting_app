@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Student Voting App</string>
+    <string name="firestore_collection">votings</string>
 </resources>

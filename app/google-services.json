@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "113933933113",
+    "project_id": "student-voting-app-e9477",
+    "storage_bucket": "student-voting-app-e9477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113933933113:android:b77720aeff69f3ddc08be8",
+        "android_client_info": {
+          "package_name": "com.example.studentvotingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0iSK_NZAf2rMOiXv21-DoDBJvBE3v4Ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
